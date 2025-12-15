@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/">Faris Ahmad</a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/faristheknight" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/faris-ahmad-b53b34264/" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:farisahmad3x6@gmail.com" target="_blank" rel="noopener no-referrer">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+            <a href="files/CV .pdf" download>
+                <i class="fa-solid fa-envelope"></i>
+                <span>Lebenslauf</span>
+            </a>
+        </div>
+
+    </nav>
+
+
+    <main>
+        <!--- SECTION 1: Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, Ich bin Faris</h2>
+                <br>
+                <p>Mein Name ist Faris Ahmad, ich bin 20 Jahre alt und komme aus Pakistan. Derzeit lebe ich in
+                    Schwarzenberg und besuche einen Deutschkurs, um meine Sprachkenntnisse kontinuierlich zu verbessern.
+                    <br><br>
+                    Ich bin zuverlässig, verantwortungsbewusst und arbeite gerne im Team. Pünktlichkeit,
+                    Lernbereitschaft und eine strukturierte Arbeitsweise gehören zu meinen Stärken. Mein besonderes
+                    Interesse gilt dem IT-Bereich, insbesondere der Programmierung und der Softwareentwicklung. Darüber
+                    hinaus interessiere ich mich für Cyber Security und den sicheren Umgang mit IT-Systemen.
+                    <br><br>
+                    In meiner Freizeit beschäftige ich mich mit Lesen, Geschichte und Fotografie. Außerdem lege ich
+                    großen Wert auf Fitness und Sport, da sie Disziplin, Ausdauer und Konzentration fördern –
+                    Eigenschaften, die auch im Berufsleben wichtig sind.
+                </p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="images/headshot.webp" alt="Faris Ahmad">
+            </div>
+        </section>
+
+
+        <!--- SECTION 2: skills-->
+        <section id="skills" class="skills-section">
+            <h2>Fähigkeiten</h2>
+            <br>
+            <div class="text">
+                Ich habe grundlegende Kenntnisse in HTML, CSS, Python und SQL und arbeite daran, diese Fähigkeiten im
+                Bereich der Software- und Webentwicklung weiter auszubauen.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="images/sql-logo.webp" alt="sql logo">
+                    <span>SQL</span>
+
+                </div>
+                <div class="cell">
+                    <img src="images/python-logo.webp" alt="python-logo logo">
+                    <span>Python</span>
+
+                </div>
+            </div>
+        </section>
+
+        <!--- SECTION 3: projects-->
+        <section id="projects" class="projects-section">
+            <h2>Projekte</h2>
+            <div class="cells">
+                <div id="portfolio-image" class="cell">
+                    <img src="images/portfolio-website-image.png" alt="portfolio website image">
+                    <h4>Portfolio Website</h4>
+                    <span>Dies ist meine persönliche Portfolio-Website, die ich mit HTML und CSS selbst entwickelt habe.
+                        Sie dient dazu, meine Projekte, Fähigkeiten und meinen beruflichen Werdegang übersichtlich
+                        darzustellen.</span>
+                    <a href="/">Projekt anschauen</a>
+                </div>
+                <div class="cell">
+                    <img src="images/sql-project-image.webp" alt="SQL project image">
+                    <h4>SQL Project</h4>
+                    <span>Dieses Projekt habe ich als Abschlussprojekt des Kurses CS50SQL umgesetzt. Dabei habe ich eine
+                        relationale Datenbank entworfen, die Benutzer, Inhalte und Benutzeraktivitäten über verschiedene
+                        Log-Tabellen verwaltet. </span>
+                    <a href="https://github.com/faristheknight/CS50SQL-FinalProject" target="_blank"
+                        rel="noopener no-referrer">Projekt anschauen</a>
+                    <!-- <img src="images/project1.webp" alt="project 1">
+                    <span>Project 1</span>
+                    <img src="images/project1.webp" alt="project 1">
+                    <span>Project 1</span> -->
+                </div>
+            </div>
+        </section>
+
+
+        <!--- SECTION 4: contact-->
+        <section id="contact" class="contact-section">
+            <h2>Kontaktieren</h2>
+
+            <div class="group">
+                <div class="text">
+                    Sie können mich über dieses Formular kontaktieren.
+
+                </div>
+                <form action="https://getform.io/f/bejvjnzan" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="John Doe" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="johndoe@abc.com" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
