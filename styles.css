@@ -60,16 +60,18 @@ nav .right a span {
 /* SECTION 1: Hero */
 .hero-section {
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    margin:50px 0;
+    justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-bottom: 100px;
+    padding: 0 50px;
+    min-height: 100vh;
+    transform: translateY(-50px);  /* moves hero 50px up */
 }
+
 
 .hero-section .text {
     flex: 5;
+    font-size: 18px;
 }
 
 .hero-section .text h2 {
@@ -77,7 +79,7 @@ nav .right a span {
 }
 
 .hero-section .text .links {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .hero-section .text .links a{
@@ -121,6 +123,8 @@ nav .right a span {
  .skills-section .text {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 .skills-section .cells {
@@ -160,7 +164,7 @@ nav .right a span {
 
 .projects-section {
     padding: 0 50px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 .projects-section h2 {
@@ -184,7 +188,7 @@ nav .right a span {
     border: 1.5px solid #d3d3d3;
     background-color: white;
     border-radius: 10px;
-    overflow: hidden;
+    overflow    : hidden;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -213,7 +217,7 @@ nav .right a span {
 
 .projects-section .cells .cell span{
     padding: 0 20px 20px 20px;
-    height: 160px;
+    min-height: 160px;
     font-size: 14px;
 }
 
@@ -292,14 +296,24 @@ nav .right a span {
 }
 /* RESPONSIVE STYLES */
 
-@media (max-width:850px) {
+@media (max-width:960px) {
+    .hero-section {
+        padding-top: 80px ;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
     .hero-section .text h2 {
+        font-size: 35px;
+    }
+    /* SECTION 2: Skills */
+    .skills-section h2 {
         font-size: 35px;
     }
 }
 
 
-@media (max-width:740px) {
+@media (max-width:750px) {
+
     .hero-section {
        flex-direction: column-reverse;
     }
@@ -307,10 +321,25 @@ nav .right a span {
         width: 300px;
 
     }
+    .hero-section .text p{
+        font-size: 16px;
+    }
+/* Section 2: Skills */
+    .skills-section .text{
+        font-size: 14px;
+    }
     /* SECTION 4: Contact */
     .contact-section .group {
         flex-direction: column;
     }
+     nav .right a span {
+        display: none;
+    }
+    .contact-section h2{
+        text-align: center;
+    }
+    .contact-section .group .text {
+    text-align: center;    }
 }
 @media (max-width:600px) {
     nav{
@@ -327,22 +356,24 @@ nav .right a span {
         padding: 0px;
     }
 
-    nav .right a span {
-        display: none;
-    }
-
     /* SECTION 1: Hero */
     .hero-section {
-        padding: 0 20px;;
+        padding: 40px 20px;;
     }
     .hero-section .text h2 {
-        font-size: 30px;
+        font-size: 28px;
+    }
+    .hero-section .text p{
+        font-size: 14px;
     }
 
     /* SECTION 2: Skills */
 
     .skills-section {
         padding: 0 20px;
+    }
+    .skills-section .text{
+        font-size: 14px;
     }
     .skills-section .cells .cell span{
         font-size: 16px;
