@@ -65,17 +65,17 @@ nav .right a span {
     align-items: center;
     gap: 40px;
     padding: 0 50px;
-    min-height: 100vh;
+    min-height: 90;
 }
 
 
 .hero-section .text {
     flex: 5;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .hero-section .text h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .hero-section .text .links {
@@ -102,6 +102,12 @@ nav .right a span {
     transition-duration: 0.3s;
 }
 
+.hero-section .headshot {
+    flex: 2;
+    display: flex;
+    justify-content: right;
+
+}
 
 
 /* SECTION 2: Skills */
@@ -111,13 +117,13 @@ nav .right a span {
 }
 
 .skills-section h2 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;}
 
  .skills-section .text {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -150,7 +156,7 @@ nav .right a span {
 }
 
 .skills-section .cells .cell span{
-    font-size: 22px;
+    font-size: 18px;
 
 }
 
@@ -162,7 +168,7 @@ nav .right a span {
 }
 
 .projects-section h2 {
-    font-size: 42px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 40px;
     
