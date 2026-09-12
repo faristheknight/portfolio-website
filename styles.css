@@ -35,7 +35,6 @@ nav {
     align-items: center;
     padding: 0px 50px;
     height: 80px;
-    position: absolute;
 }
 
 nav .left a {
@@ -64,9 +63,9 @@ nav .right a span {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding: 0 10px;
-    min-height: (70vh);
+    gap: 40px;
+    padding: 0 50px;
+    min-height: 70;
 }
 
 
